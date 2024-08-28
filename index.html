@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="output.css">
+
+</head>
+
+<body style="background-color: #001e4d;">
+    <div id="app" class="flex h-full justify-center items-center my-20">
+        <div id="box" class="bg-white h-auto w-2/4 border-b-8 rounded-xl">
+            <h1 class="text-3xl text-blue-900 font-semibold p-5">Quiz Time</h1>
+            <div id="rule" class="h-1 w-auto bg-blue-950"></div>
+            <div id="quiz">
+                <h2 id="question" class="text-2xl pt-6 ml-8 font-mono text-blue-900">The question goes here</h2>
+                <div id="answers" class="flex flex-col p-3">
+                    <button class="border-2 border-black h-12 text-left p-2 text-gray-800 font-mono pl-5 text-lg m-5 rounded-lg hover:bg-black hover:text-slate-300">Answer 1</button>
+                    <button class="border-2 border-black h-12 text-left p-2 text-gray-800 font-mono pl-5 text-lg m-5 rounded-lg hover:bg-black hover:text-slate-300">Answer 2</button>
+                    <button class="border-2 border-black h-12 text-left p-2 text-gray-800 font-mono pl-5 text-lg m-5 rounded-lg hover:bg-black hover:text-slate-300">Answer 3</button>
+                    <button class="border-2 border-black h-12 text-left p-2 text-gray-800 font-mono pl-5 text-lg m-5 rounded-lg hover:bg-black hover:text-slate-300">Answer 4</button>
+                </div>
+                <button id ='next' class="h-12 w-44 bg-blue-950 text-white block m-auto mb-3 border-none rounded-lg ">Next</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
